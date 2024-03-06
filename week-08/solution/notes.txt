@@ -1,0 +1,17 @@
+hex
+rgb()
+rgba()
+hsl() - hue, saturation, light
+
+decimal - base 10 - 0 1 2 3 4 5 6 7 8 9
+hexidecimal - base 16 - 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+RGB - Red Green Blue
+
+#RRGGBB
+
+#000000 - black
+#000
+
+#FFFFFF - white
+#FFF
