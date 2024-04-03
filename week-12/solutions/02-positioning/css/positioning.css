@@ -1,0 +1,46 @@
+main {
+  border: 2px dashed #222;
+  width: 800px;
+  min-height: 500px;
+  position: relative;
+}
+
+#red,
+#yellow,
+#blue {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #222;
+}
+
+#red {
+  border-color: rgb(255,0,0);
+  background-color: rgba(255,0,0,0.5);
+  position: relative;
+  z-index: 10;
+  /* position: fixed;
+  bottom: 10px;
+  right: 10px; */
+}
+
+#yellow {
+  border-color: rgb(249,211,87);
+  background-color: rgb(249,211,87);
+  position: relative;
+  /* top, bottom; left, right */
+  left: 50px;
+  top: -50px;
+  z-index: 5;
+}
+
+#blue {
+  border-color: rgb(0,0,255);
+  background-color: rgba(0,0,255,0.5);
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+
+  position: relative;
+  top: -100px;
+  left: 100px;
+}

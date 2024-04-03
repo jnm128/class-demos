@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #ddd;
+  position: sticky;
+  top: 0;
+  /* border-top: 10px solid #fff; */
+}
